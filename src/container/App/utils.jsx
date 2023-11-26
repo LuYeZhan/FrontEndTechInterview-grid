@@ -27,7 +27,7 @@ export const handleAddNewRowLogic = (prevState) => {
     id: newRowId,
     name: `New Row ${prevState.rowOrder.length + 1}`,
     productIds: [],
-    aestheticTemplate: 'none', // Adjust the default value as needed
+    aestheticTemplate: 'none',
   };
 
   return {

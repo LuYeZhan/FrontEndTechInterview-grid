@@ -55,7 +55,6 @@ const Row = ({ row, products, index, updateAlignment, alignmentOptions }) => {
                 {...provided.droppableProps}
                 isDraggingOver={snapshot.isDraggingOver}
                 rowAligment={alignment}
-                tabIndex={0}
               >
                 <MemoizedInnerList key={products.id} products={products} row={row} itemType="product" />
                 {provided.placeholder}
